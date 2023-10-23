@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*content*/
+
+.content {
+    background-color:#f8f4f4 ;
+    width: 100%;
+    display: inline-block;
+    height: 100vh;
+}
+
+/*navbar*/
+
+.navigasi {
+    position: fixed;
+    background-color: rgb(37, 39, 39); ;
+    border: 1px solid black;
+    margin-top: -90px;
+    opacity: .9;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0px -21px 10px -30px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+
+
+
+.navigasi ul {
+    position: fixed;
+    display: flex;
+}
+
+.navigasi ul li {
+    padding: 30px;
+    
+}
+
+.navigasi ul li a {
+    z-index: 1;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Pixelify Sans', cursive;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdfd;
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 13px;
+    color: black;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+}
+
+
+/*hover link*/
+
+.navigasi ul li a:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.4s;
+    color: #000;
+}
+
+/* boxmodel*/
+
+
+img {
+    background-color: #222121;
+    border-radius: 100px 90px 100px 5px;
+    box-shadow: 2px 2px 2px 2px rgb(37, 39, 39);
+    display: flex;
+    margin-left: auto;
+    float: right;
+    margin-top: 90px;
+    margin-right: 50px;
+    width: 300px;
+}
+
+.boxmodel {
+    margin-top: 90px;
+}
+
+p { 
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Pixelify Sans', cursive;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.45);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.name h1{
+     padding-left: 70px;
+     font-size: 2em;
+     font-weight: bolder;
+     text-transform: capitalize;
+     font-family: 'Pixelify Sans', cursive;
+    margin-top: -320px;
+}
+
+
+
+.button-50 {
+    appearance: button;
+    background-color: #272727;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #ffffff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 100px ;
+    margin-top: 30px;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-50:focus {
+    text-decoration: none;
+  }
+  
+  .button-50:hover {
+    text-decoration: none;
+    transform: scale(0.9);
+    transition: all ease-in-out 0.4s;
+  }
+  
+  .button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-50 {
+      padding: 12px 50px;
+    }
+  }
+
+
+  .me p  {
+   font-size: 1em;
+   text-transform: capitalize; 
+   margin-left: 100px;
+   margin-top: -30px;
+  }
